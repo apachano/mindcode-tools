@@ -26,6 +26,10 @@ No additional runtime requirements for language features in 0.1.
 
 Compiler integration is planned in 0.3.
 
+## Developer Docs
+
+Contributor and release workflow documentation is in [DEVELOPMENT.md](DEVELOPMENT.md).
+
 ## Known Issues
 
 * No semantic language features yet (hover, go-to-definition, diagnostics)
@@ -35,40 +39,36 @@ Compiler integration is planned in 0.3.
 
 ### 0.1 - Language Basics
 
-* ~~ TextMate grammar ~~
-* ~~ File extension registration (.mnd) ~~
-* ~~ Basic autocomplete ~~
-* ~~ Bracket matching, comments, indentation rules ~~
+* [x] TextMate grammar
+* [x] File extension registration (.mnd)
+* [x] Basic autocomplete
+* [x] Bracket matching, comments, indentation rules
 
 ### 0.2 - Intermediate Language
 
-* Doc hovers
-* Basic auto formatter
-* Go to definition
-* Signature help
+* [ ] Doc hovers
+* [ ] Basic auto formatter
+* [ ] Go to definition
+* [ ] Signature help
 
 ### 0.3 - Compiler Integration
 
-* Compiler path
-* Command palette to compile current file
-* Output path
-* Problem matcher diagnostics in Problems panel
-* Build task and status notifications
-* Configurable compiler path/args in extension settings
-* Safe pre-flight checks
+* [ ] Compiler path
+* [ ] Command palette to compile current file
+* [ ] Output path
+* [ ] Problem matcher diagnostics in Problems panel
+* [ ] Build task and status notifications
+* [ ] Configurable compiler path/args in extension settings
+* [ ] Safe pre-flight checks
 
 ### 0.4 - Deployment Integration
 
-* Command palette: compile and deploy to Mlog Watcher
+* [ ] Command palette: compile and deploy to Mlog Watcher
 
 ### 0.5 - Advanced Language Features
 
-* Symbol renaming
-* Linting
-* Quick fixes
-* Code actions
-* Debug story
-
-## Following extension guidelines
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+* [ ] Symbol renaming
+* [ ] Linting
+* [ ] Quick fixes
+* [ ] Code actions
+* [ ] Debug story

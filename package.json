@@ -1,8 +1,14 @@
 {
   "name": "mindcode-tools",
+  "publisher": "apachano",
   "displayName": "mindcode-tools",
   "description": "Language basics for Mindcode in VS Code",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apachano/mindcode-tools.git"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
   },
