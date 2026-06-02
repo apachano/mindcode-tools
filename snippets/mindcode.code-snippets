@@ -1,0 +1,63 @@
+{
+  "if/else block": {
+    "scope": "mindcode",
+    "prefix": "if",
+    "body": [
+      "if ${1:condition}",
+      "  ${2:// body}",
+      "else",
+      "  ${3:// fallback}",
+      "end"
+    ],
+    "description": "Mindcode if/else block"
+  },
+  "for loop": {
+    "scope": "mindcode",
+    "prefix": "for",
+    "body": [
+      "for ${1:item} in ${2:items}",
+      "  ${3:// body}",
+      "end"
+    ],
+    "description": "Mindcode for-in loop"
+  },
+  "while loop": {
+    "scope": "mindcode",
+    "prefix": "while",
+    "body": [
+      "while ${1:condition}",
+      "  ${2:// body}",
+      "end"
+    ],
+    "description": "Mindcode while loop"
+  },
+  "function": {
+    "scope": "mindcode",
+    "prefix": "fun",
+    "body": [
+      "def ${1:name}(${2:arg})",
+      "  ${3:// body}",
+      "end"
+    ],
+    "description": "Mindcode function definition"
+  },
+  "ubind + move": {
+    "scope": "mindcode",
+    "prefix": "unit",
+    "body": [
+      "ubind ${1:@poly}",
+      "ucontrol move ${2:x} ${3:y} ${4:0} ${5:0}",
+      "end"
+    ],
+    "description": "Basic unit binding and movement"
+  },
+  "print flush": {
+    "scope": "mindcode",
+    "prefix": "print",
+    "body": [
+      "print(${1:\"message\"})",
+      "printflush(${2:message1})"
+    ],
+    "description": "Print text and flush to a message block"
+  }
+}

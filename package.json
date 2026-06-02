@@ -1,8 +1,8 @@
 {
   "name": "mindcode-tools",
   "displayName": "mindcode-tools",
-  "description": "Syntax highlighting and compiler shortcut",
-  "version": "0.0.1",
+  "description": "Language basics for Mindcode in VS Code",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -32,6 +32,12 @@
         "language": "mindcode",
         "scopeName": "source.mindcode",
         "path": "./syntaxes/mindcode.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "mindcode",
+        "path": "./snippets/mindcode.code-snippets"
       }
     ],
     "commands": [
